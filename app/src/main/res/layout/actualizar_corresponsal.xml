@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".administrador.ActualizarCorresponsal">
+
+    <include
+        layout="@layout/baner_admin_sin_titulo"
+        android:layout_width="match_parent"
+        android:layout_height="64dp" />
+
+    <TextView
+        android:layout_width="327dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="30dp"
+        android:text="Actualizar Corresponsal"
+        android:textAlignment="center"
+        android:textSize="25sp" />
+
+    <View
+        android:layout_width="280dp"
+        android:layout_height="3dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/purple_500" />
+
+    <EditText
+        android:id="@+id/nombreCorresponsalActualizar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:inputType="textPersonName"
+        android:layout_marginTop="40dp"
+        android:focusable="false"
+        android:clickable="false"
+        android:hint="NOMBRE CORRESPONSAL"
+        />
+
+    <EditText
+        android:id="@+id/nitCorresponsalActualizar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:focusable="false"
+        android:clickable="false"
+        android:hint="Numero de NIT"
+        android:inputType="number" />
+
+
+    <EditText
+        android:id="@+id/correoCorresponsalActalizar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="35dp"
+        android:focusable="false"
+        android:clickable="false"
+        android:ems="10"
+        android:hint="Correo Corresponsal"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/contraseñanueva"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginTop="40dp"
+        android:hint="Contraseña nueva "
+        android:visibility="gone"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/confirmarContraseña"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginTop="40dp"
+        android:visibility="gone"
+        android:hint="Confirmar Contraseña "
+        android:inputType="textPassword" />
+
+    <LinearLayout
+        android:id="@+id/botones"
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:visibility="gone"
+        android:layout_marginTop="80dp"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/botonConfirmarCorresponsalActualizar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_weight="1"
+            android:background="@drawable/fondos_boton_inicar_sesion"
+            android:text="Confirmar"
+            android:textAllCaps="false"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/botonCancelarCorresponsalActualizar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="30dp"
+            android:layout_weight="1"
+            android:background="@drawable/fondos_boton_cancelar"
+            android:text="Cancelar"
+            android:textAllCaps="false"
+            android:textColor="@color/purple_500" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/confirmarActualizacion"
+        android:layout_width="200dp"
+        android:layout_marginTop="30dp"
+        android:layout_height="55dp"
+        android:layout_marginLeft="30dp"
+        android:layout_gravity="center"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/fondos_boton_inicar_sesion"
+        android:text="Confirmar"
+        android:textAllCaps="false"
+        android:textColor="@color/white" />
+
+
+</LinearLayout>

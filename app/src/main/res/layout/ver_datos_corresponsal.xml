@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".administrador.VerDatosCorresponsal">
+
+
+    <include
+        layout="@layout/baner_admin_sin_titulo"
+        android:layout_width="match_parent"
+        android:layout_height="49dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="50dp"
+        android:text="Consultar Corresponsal"
+
+        android:textSize="25sp" />
+
+    <View
+        android:layout_width="250dp"
+        android:layout_height="3dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="4dp"
+        android:background="@color/purple_500" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="195dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/fondos_confirmar_corresponsalr"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/mostrarNombreCorresponsal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="35dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/mostrarNitCorresponsal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="35dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/mostarSaldoCorresponsal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="35dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/mostrarCoreoCorresponsal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="35dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textSize="17sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:layout_marginTop="80dp"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/habilitar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_weight="1"
+            android:background="@drawable/fondos_boton_inicar_sesion"
+            android:text="Hbiliar"
+            android:textAllCaps="false"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/deshabilitar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="30dp"
+            android:layout_weight="1"
+            android:background="@drawable/fondos_boton_cancelar"
+            android:text="Deshabilitar"
+            android:textAllCaps="false"
+            android:textColor="@color/purple_500" />
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".corresponsal.ConfirmarDatosDepisito">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="90dp"
+        android:text="Cofirmar Depisito"
+        android:textAlignment="center"
+        android:textSize="25sp" />
+
+    <View
+        android:layout_width="250dp"
+        android:layout_height="3dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="4dp"
+        android:background="#566FF6" />
+
+    <TextView
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:text="Estimado:" />
+
+    <TextView
+        android:id="@+id/cedulaQuienDeposita"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginTop="50dp"
+        android:text="Desea realizar el deposito a:" />
+
+    <TextView
+        android:id="@+id/cedulaAquienDeposita"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginTop="35dp"
+        android:text="Por un valor de :" />
+
+    <TextView
+        android:id="@+id/valorAdepositar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginTop="20dp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:layout_marginTop="80dp"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/botonConfirmarDatosDeposito"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_weight="1"
+            android:background="@drawable/fondos_boton_inicar_sesion_usuario"
+            android:text="Confirmar"
+            android:textAllCaps="false"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/botonCancelarDatosDeposito"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="30dp"
+            android:layout_weight="1"
+            android:background="@drawable/fondos_confirmar_corresponsal_azul"
+            android:text="Cancelar"
+            android:textAllCaps="false"
+            android:textColor="@color/purple_800" />
+    </LinearLayout>
+
+a
+
+</LinearLayout>

@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".administrador.VerDatosDeUsuario">
+
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:text="Consultar Cliente"
+        android:textAlignment="center"
+        android:textSize="25sp" />
+
+    <View
+        android:layout_width="250dp"
+        android:layout_height="3dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="4dp"
+        android:background="@color/purple_500" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/tarjeta"
+
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="290dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="55dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginRight="20dp"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/chip"
+                android:layout_width="41dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="12dp"
+                android:background="@drawable/chip"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/american"
+                android:layout_width="41dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginStart="170dp"
+                android:visibility="gone"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/american_expres"
+                android:ems="10"
+                android:layout_gravity="end"
+                android:inputType="textPersonName"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/visa"
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/visa"
+                android:ems="10"
+                android:layout_marginStart="170dp"
+                android:visibility="gone"
+                android:inputType="textPersonName"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/mastercard"
+                android:layout_width="41dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/mastercard"
+                android:ems="10"
+                android:visibility="gone"
+                android:layout_marginStart="170dp"
+                android:inputType="textPersonName"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/unionplay"
+                android:layout_width="41dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginStart="170dp"
+                android:background="@drawable/unionplay"
+                android:ems="10"
+                android:visibility="gone"
+                android:inputType="textPersonName"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/numeroTarjetaUsu"
+            android:layout_width="185dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="160dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+
+        <LinearLayout
+            android:layout_width="291dp"
+            android:layout_height="47dp"
+            android:layout_marginLeft="50dp"
+            android:orientation="horizontal">
+
+            <TextView
+
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="3dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:paddingStart="2sp"
+                android:text="CVV"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/cvvUsu"
+                android:layout_width="42dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="20dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:layout_width="67dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="1dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="3dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="fecha expiracion"
+                android:textColor="@color/white"
+                android:textSize="9sp" />
+
+
+            <TextView
+                android:id="@+id/fechaUsu"
+                android:layout_width="67dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="35dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/nombreClienteUsu"
+            android:layout_width="183dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="120dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textColor="@color/white" />
+
+
+        <TextView
+            android:id="@+id/saldoUsu"
+            android:layout_width="119dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="120dp"
+            android:inputType="textPersonName"
+            android:textColor="@color/black" />
+
+        <View
+            android:layout_width="80dp"
+            android:layout_height="2dp"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="4dp"
+            android:background="@color/black" />
+
+        <TextView
+
+            android:layout_width="122dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginRight="120dp"
+            android:inputType="textPersonName"
+            android:text="saldo cliente"
+            android:textColor="@color/black" />
+
+
+    </LinearLayout>
+
+    <Button
+            android:id="@+id/botonConfirmarConsultaUsu"
+            android:layout_width="200dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="60dp"
+            android:background="@drawable/fondos_boton_inicar_sesion"
+            android:text="Confirmar"
+            android:textAllCaps="false"
+            android:textColor="@color/white" />
+
+
+
+</LinearLayout>

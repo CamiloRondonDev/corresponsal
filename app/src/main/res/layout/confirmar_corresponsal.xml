@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".administrador.ConfirmarCorresponsal">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="50dp"
+        android:text="Cofirmar datos corresponsal"
+        android:textAlignment="center"
+        android:textSize="25sp" />
+
+    <View
+        android:layout_width="250dp"
+        android:layout_height="3dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="4dp"
+        android:background="@color/purple_500" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/fondos_confirmar_corresponsalr"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/confirmarNombreCorresponsal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="35dp"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/confirmarNitCorresponsal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="35dp"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/confirmarSaldoCorresponsal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="35dp"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/confirmarCorreoCorresponsal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="35dp"
+            android:ems="10"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:layout_marginTop="80dp"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/botonConfirmarDatosCorresponsal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_weight="1"
+            android:background="@drawable/fondos_boton_inicar_sesion"
+            android:text="Confirmar"
+            android:textAllCaps="false"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/botonCancelarConfirmacionCorresponsal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="30dp"
+            android:layout_weight="1"
+            android:background="@drawable/fondos_boton_cancelar"
+            android:text="Cancelar"
+            android:textAllCaps="false"
+            android:textColor="@color/purple_500" />
+    </LinearLayout>
+
+
+</LinearLayout>

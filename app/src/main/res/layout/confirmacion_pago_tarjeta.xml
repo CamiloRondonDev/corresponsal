@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".corresponsal.ConfirmacionPagoTarjeta">
+
+
+
+    <TextView
+        android:layout_width="298dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="30dp"
+        android:text="Confirmacion"
+        android:textAlignment="center"
+        android:textSize="30sp" />
+
+    <View
+        android:layout_width="250dp"
+        android:layout_height="3dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="5dp"
+        android:background="#1299F3" />
+
+    <TextView
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Estimado:" />
+
+    <TextView
+        android:id="@+id/nombrePagoTarjeta"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <View
+        android:layout_width="250dp"
+        android:layout_height="3dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="5dp"
+        android:background="#1299F3" />
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text=" Desea realizar el pago a"/>
+    <TextView
+        android:layout_marginTop="7dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="WPOSS"/>
+    <TextView
+        android:layout_marginTop="7dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="por un valor de:"/>
+
+    <TextView
+        android:id="@+id/valorPagoTarjeta"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <View
+        android:layout_width="250dp"
+        android:layout_height="3dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="5dp"
+        android:background="#1299F3" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="25dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="15dp"
+            android:textSize="20sp"
+            android:text="A" />
+
+        <TextView
+            android:id="@+id/numeroCuotas"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp" />
+
+        <TextView
+
+            android:layout_width="66dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="35dp"
+            android:textSize="20sp"
+            android:text="cuotas" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="153dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="35dp"
+        android:textSize="18sp"
+        android:text="Numer de tarjeta:" />
+
+    <TextView
+        android:id="@+id/numeroTarjetMirar"
+        android:layout_width="155dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="35dp" />
+
+    <TextView
+        android:id="@+id/tipoTajeta"
+        android:layout_width="156dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="35dp"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:layout_marginTop="60dp"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/botonConfirmarPagoTarjeta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_weight="1"
+            android:background="@drawable/fondos_boton_inicar_sesion_corresponsal"
+            android:text="Confirmar"
+            android:textAllCaps="false"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/botonCancelarPagoTarjeta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="30dp"
+            android:layout_weight="1"
+            android:background="@drawable/fondos_boton_cancelar_corresponsal"
+            android:text="Cancelar"
+            android:textAllCaps="false"
+            android:textColor="#347FEF" />
+    </LinearLayout>
+
+
+
+</LinearLayout>

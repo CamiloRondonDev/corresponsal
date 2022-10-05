@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".corresponsal.IngresePin">
+
+
+
+    <TextView
+        android:layout_width="298dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="70dp"
+        android:text="ingrese su pin"
+        android:textAlignment="center"
+        android:layout_marginRight="35dp"
+
+        android:textSize="30sp" />
+
+    <View
+        android:layout_width="200dp"
+        android:layout_height="3dp"
+        android:layout_marginLeft="105dp"
+        android:layout_marginTop="1dp"
+        android:background="#03A9F4" />
+
+
+
+
+    <EditText
+        android:id="@+id/pinUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="35dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="PIN"
+        android:inputType="numberDecimal" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:layout_marginTop="60dp"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/botonConfirmarPinUsuario"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_weight="1"
+            android:background="@drawable/fondos_boton_inicar_sesion_usuario"
+            android:text="Confirmar"
+            android:textAllCaps="false"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/botonCancelarPinUsuario"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="30dp"
+            android:layout_weight="1"
+            android:background="@drawable/fondos_confirmar_corresponsal_azul"
+            android:text="Cancelar"
+            android:textAllCaps="false"
+            android:textColor="#2196F3" />
+    </LinearLayout>
+
+
+
+</LinearLayout>

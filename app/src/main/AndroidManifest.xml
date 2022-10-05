@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.corresponsal">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity
+            android:name=".corresponsal.ConfirmacionPagoTarjeta"
+            android:exported="false" />
+        <activity
+            android:name=".corresponsal.ConfirmarPinTransaccion"
+            android:exported="false" />
+        <activity
+            android:name=".corresponsal.ConfirmarRetiro"
+            android:exported="false" />
+        <activity
+            android:name=".corresponsal.ConfirmarDatosDepisito"
+            android:exported="false" />
+        <activity
+            android:name=".corresponsal.ResultadoConsultaSaldoCliente"
+            android:exported="false" />
+        <activity
+            android:name=".administrador.VerInformacionClienteSoloVerla"
+            android:exported="false" />
+        <activity
+            android:name=".administrador.VerDatosCorresponsal"
+            android:exported="false" />
+        <activity
+            android:name=".administrador.VerDatosDeUsuario"
+            android:exported="false" />
+        <activity
+            android:name=".administrador.VerInforActualizarCliente"
+            android:exported="false" />
+        <activity
+            android:name=".administrador.ConsularClienteParaActualizarlo"
+            android:exported="false" />
+        <activity
+            android:name=".administrador.ConsultaCorresponsalParaActualizar"
+            android:exported="false" />
+        <activity
+            android:name=".administrador.ConfirmarActDatosCorresponsal"
+            android:exported="false" />
+        <activity
+            android:name=".administrador.ConfirmarDatosUsuarioAdmin"
+            android:exported="false" />
+        <activity
+            android:name=".administrador.IngresePinUsuarioAdmin"
+            android:exported="false" />
+        <activity
+            android:name=".corresponsal.ConfirmarActualizacionDatosCorresponsal"
+            android:exported="false" />
+        <activity
+            android:name=".corresponsal.ConfirmarDatos"
+            android:exported="false" />
+        <activity
+            android:name=".corresponsal.IngresePin"
+            android:exported="false" />
+        <activity
+            android:name=".corresponsal.CrearClienteCorresonsal"
+            android:exported="false" />
+        <activity
+            android:name=".corresponsal.ActualizarDatosCorresponsal"
+            android:exported="false" />
+        <activity
+            android:name=".corresponsal.ConsultarSaldoCorresponsalParaCliente"
+            android:exported="false" />
+        <activity
+            android:name=".corresponsal.HistoriaTransacciones"
+            android:exported="false" />
+        <activity
+            android:name=".corresponsal.Transferencias"
+            android:exported="false" />
+        <activity
+            android:name=".corresponsal.Deposito"
+            android:exported="false" />
+        <activity
+            android:name=".corresponsal.RetirosCorresponsal"
+            android:exported="false" />
+        <activity
+            android:name=".corresponsal.PagoConTarjeta"
+            android:exported="false" />
+        <activity
+            android:name=".corresponsal.CorresponInformacion"
+            android:exported="false" />
+        <activity
+            android:name=".administrador.ConfirmarCorresponsal"
+            android:exported="false" />
+        <activity
+            android:name=".administrador.ActualizarCliente"
+            android:exported="false" />
+        <activity
+            android:name=".administrador.ActualizarCorresponsal"
+            android:exported="false" />
+        <activity
+            android:name=".administrador.ListaCorresponsales"
+            android:exported="false" />
+        <activity
+            android:name=".administrador.ListaClientes"
+            android:exported="false" />
+        <activity
+            android:name=".administrador.ConsultarCorresponsalSoloConsulta"
+            android:exported="false" />
+        <activity
+            android:name=".administrador.ConsultarCliente"
+            android:exported="false" />
+        <activity
+            android:name=".administrador.RegistoCorresponsal"
+            android:exported="false" />
+        <activity
+            android:name=".administrador.RegistroClientes"
+            android:exported="false" />
+        <activity
+            android:name=".administrador.AdminInformacion"
+            android:exported="false" />
+        <activity
+            android:name=".administrador.LoginAdministrador"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

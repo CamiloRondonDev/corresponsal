@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".corresponsal.ConsultarSaldoCorresponsalParaCliente">
+
+
+    <include
+        layout="@layout/barnser_corresponsal_sin_titulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+    <EditText
+        android:id="@+id/numeroCCconsular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="160dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:hint="Numero cedula a deposiar"
+        android:inputType="number" />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:layout_marginTop="100dp"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/botonConfirmarconsultasaldo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_weight="1"
+            android:background="@drawable/fondos_boton_inicar_sesion_corresponsal"
+            android:text="Confirmar"
+            android:textAllCaps="false"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/botonCancelarDeposito"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="30dp"
+            android:layout_weight="1"
+            android:background="@drawable/fondos_boton_cancelar_corresponsal"
+            android:text="Cancelar"
+            android:textAllCaps="false"
+            android:textColor="#347FEF" />
+    </LinearLayout>
+
+
+</LinearLayout>

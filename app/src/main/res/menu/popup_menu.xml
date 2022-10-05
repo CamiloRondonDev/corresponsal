@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+<item android:id="@+id/Item_Actualizar_Corresponsal"
+    android:title="Actualizar Corresponsal"/>
+
+    <item android:id="@+id/Item_Actualizar_Clientes"
+        android:title="Actualizar Clientes"/>
+
+    <item android:id="@+id/Item_Cerrar_Sesion"
+        android:title="Cerrar Sesion"/>
+
+
+</menu>
